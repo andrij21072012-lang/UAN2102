@@ -7,3 +7,4 @@ class Student:
             return (f"Ім'я: {self.name}, Вік: {self.age}")
 student1 = Student("Andrij", 20)
 print(f"Ім'я: {self.name}, Вік: {self.age}")
+дз
