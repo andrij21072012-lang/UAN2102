@@ -1,9 +1,7 @@
-class Student:
-    def __init__(self):
-        self.name.Student = Andrij
-        self.age.Student = 20
+import logging
 
-        def get_info(self):
-            return (f"Ім'я: {self.name}, Вік: {self.age}")
-student1 = Student("Andrij", 20)
-print(f"Ім'я: {self.name}, Вік: {self.age}")
+logging.basicConfig(level=logging.DEBUG, filename="logs.log", filemode="a",
+                    format="We have next logging message: %(asctime)s:%(levelname)s - %(message)s")
+
+
+logging.info("Програма  запустилася")
